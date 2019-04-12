@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/Cellar/node/11.14.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js start
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/abigailchen/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:.:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/abigailchen/Documents/GitHub/sa3/package.json: Unexpected string in JSON at position 88
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "sa3",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "license": "MIT"
+    "scripts": { "start": "node src/index.js" }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
