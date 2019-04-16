@@ -8,7 +8,6 @@ import VideoList from './components/video_list';
 /* import VideoListItem from './video_list_item'; */
 import VideoDetail from './components/video_detail';
 
-<<<<<<< HEAD
 class App extends Component {
   constructor(props) {
     super(props);
@@ -51,6 +50,3 @@ class App extends Component {
 }
 
 ReactDOM.render(<App />, document.getElementById('main'));
-=======
-$('#main').html('Here we go!');
->>>>>>> parent of 26a37ce... counts seconds
